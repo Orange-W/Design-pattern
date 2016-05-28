@@ -7,7 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE6365D21CF8670A00D60E43 /* Description.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6365D11CF8670A00D60E43 /* Description.m */; };
+		CE6365D61CF86CED00D60E43 /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6365D51CF86CED00D60E43 /* Apple.m */; };
+		CE6365D91CF86E1D00D60E43 /* Milk.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6365D81CF86E1D00D60E43 /* Milk.m */; };
+		CE6365DD1CF8738800D60E43 /* Template.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6365DC1CF8738800D60E43 /* Template.m */; };
 		CEC773B01CF7576C000A0945 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC773AF1CF7576C000A0945 /* main.m */; };
+		CEC773BB1CF75830000A0945 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC773BA1CF75830000A0945 /* Singleton.m */; };
+		CEC773BF1CF75A25000A0945 /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC773BE1CF75A25000A0945 /* Factory.m */; };
+		CEC773C31CF75CC5000A0945 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC773C21CF75CC5000A0945 /* Command.m */; };
+		CEC773C71CF764C1000A0945 /* Responsibility.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC773C61CF764C1000A0945 /* Responsibility.m */; };
+		CEC773CA1CF76501000A0945 /* Warning.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC773C91CF76501000A0945 /* Warning.m */; };
+		CEC773CD1CF7650D000A0945 /* Error.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC773CC1CF7650D000A0945 /* Error.m */; };
+		CED7C3C41CF96CAA00690471 /* Delegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CED7C3C31CF96CAA00690471 /* Delegate.m */; };
+		CED7C3CA1CF9754900690471 /* PrintCommond.m in Sources */ = {isa = PBXBuildFile; fileRef = CED7C3C91CF9754900690471 /* PrintCommond.m */; };
+		CED7C3CE1CF975C600690471 /* AddCommond.m in Sources */ = {isa = PBXBuildFile; fileRef = CED7C3CD1CF975C600690471 /* AddCommond.m */; };
+		CED7C3D21CF98CDA00690471 /* Policy.m in Sources */ = {isa = PBXBuildFile; fileRef = CED7C3D11CF98CDA00690471 /* Policy.m */; };
+		CED7C3D51CF98D6B00690471 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = CED7C3D41CF98D6B00690471 /* Dog.m */; };
+		CED7C3D81CF98D7700690471 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = CED7C3D71CF98D7700690471 /* Cat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +39,46 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CE6365D01CF8670A00D60E43 /* Description.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Description.h; sourceTree = "<group>"; };
+		CE6365D11CF8670A00D60E43 /* Description.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Description.m; sourceTree = "<group>"; };
+		CE6365D31CF867BA00D60E43 /* FoodPriceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodPriceProtocol.h; sourceTree = "<group>"; };
+		CE6365D41CF86CED00D60E43 /* Apple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apple.h; sourceTree = "<group>"; };
+		CE6365D51CF86CED00D60E43 /* Apple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apple.m; sourceTree = "<group>"; };
+		CE6365D71CF86E1D00D60E43 /* Milk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Milk.h; sourceTree = "<group>"; };
+		CE6365D81CF86E1D00D60E43 /* Milk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Milk.m; sourceTree = "<group>"; };
+		CE6365DB1CF8738800D60E43 /* Template.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Template.h; sourceTree = "<group>"; };
+		CE6365DC1CF8738800D60E43 /* Template.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Template.m; sourceTree = "<group>"; };
+		CE6365DE1CF8743400D60E43 /* TemplateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplateProtocol.h; sourceTree = "<group>"; };
 		CEC773AC1CF7576C000A0945 /* 设计模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "设计模式"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC773AF1CF7576C000A0945 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEC773B61CF7578C000A0945 /* route.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = route.txt; sourceTree = "<group>"; };
+		CEC773B91CF75830000A0945 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		CEC773BA1CF75830000A0945 /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		CEC773BD1CF75A25000A0945 /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
+		CEC773BE1CF75A25000A0945 /* Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
+		CEC773C11CF75CC5000A0945 /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		CEC773C21CF75CC5000A0945 /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		CEC773C51CF764C1000A0945 /* Responsibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Responsibility.h; sourceTree = "<group>"; };
+		CEC773C61CF764C1000A0945 /* Responsibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Responsibility.m; sourceTree = "<group>"; };
+		CEC773C81CF76501000A0945 /* Warning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Warning.h; sourceTree = "<group>"; };
+		CEC773C91CF76501000A0945 /* Warning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Warning.m; sourceTree = "<group>"; };
+		CEC773CB1CF7650D000A0945 /* Error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Error.h; sourceTree = "<group>"; };
+		CEC773CC1CF7650D000A0945 /* Error.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Error.m; sourceTree = "<group>"; };
+		CEC773CE1CF765C1000A0945 /* ChainProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChainProtocol.h; sourceTree = "<group>"; };
+		CED7C3C21CF96CAA00690471 /* Delegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Delegate.h; sourceTree = "<group>"; };
+		CED7C3C31CF96CAA00690471 /* Delegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Delegate.m; sourceTree = "<group>"; };
+		CED7C3C51CF96CBC00690471 /* DelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelegateProtocol.h; sourceTree = "<group>"; };
+		CED7C3C81CF9754900690471 /* PrintCommond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintCommond.h; sourceTree = "<group>"; };
+		CED7C3C91CF9754900690471 /* PrintCommond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintCommond.m; sourceTree = "<group>"; };
+		CED7C3CB1CF9756D00690471 /* CommondProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommondProtocol.h; sourceTree = "<group>"; };
+		CED7C3CC1CF975C600690471 /* AddCommond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCommond.h; sourceTree = "<group>"; };
+		CED7C3CD1CF975C600690471 /* AddCommond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCommond.m; sourceTree = "<group>"; };
+		CED7C3D01CF98CDA00690471 /* Policy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Policy.h; sourceTree = "<group>"; };
+		CED7C3D11CF98CDA00690471 /* Policy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Policy.m; sourceTree = "<group>"; };
+		CED7C3D31CF98D6B00690471 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		CED7C3D41CF98D6B00690471 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		CED7C3D61CF98D7700690471 /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		CED7C3D71CF98D7700690471 /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +92,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE6365CF1CF866D300D60E43 /* 装饰者 */ = {
+			isa = PBXGroup;
+			children = (
+				CE6365D01CF8670A00D60E43 /* Description.h */,
+				CE6365D11CF8670A00D60E43 /* Description.m */,
+				CE6365D31CF867BA00D60E43 /* FoodPriceProtocol.h */,
+				CE6365D41CF86CED00D60E43 /* Apple.h */,
+				CE6365D51CF86CED00D60E43 /* Apple.m */,
+				CE6365D71CF86E1D00D60E43 /* Milk.h */,
+				CE6365D81CF86E1D00D60E43 /* Milk.m */,
+			);
+			name = "装饰者";
+			sourceTree = "<group>";
+		};
+		CE6365DA1CF8737500D60E43 /* 模板模式 */ = {
+			isa = PBXGroup;
+			children = (
+				CE6365DB1CF8738800D60E43 /* Template.h */,
+				CE6365DC1CF8738800D60E43 /* Template.m */,
+				CE6365DE1CF8743400D60E43 /* TemplateProtocol.h */,
+			);
+			name = "模板模式";
+			sourceTree = "<group>";
+		};
 		CEC773A31CF7576C000A0945 = {
 			isa = PBXGroup;
 			children = (
@@ -57,9 +135,95 @@
 		CEC773AE1CF7576C000A0945 /* 设计模式 */ = {
 			isa = PBXGroup;
 			children = (
+				CED7C3C71CF96DAE00690471 /* 策略者 */,
+				CED7C3C61CF96DA700690471 /* 观察者 */,
+				CED7C3C11CF96C9100690471 /* 代理模式 */,
+				CE6365DA1CF8737500D60E43 /* 模板模式 */,
+				CE6365CF1CF866D300D60E43 /* 装饰者 */,
+				CEC773C41CF76467000A0945 /* 责任链 */,
+				CEC773C01CF75CA7000A0945 /* 命令链 */,
+				CEC773BC1CF75A10000A0945 /* 工厂 */,
+				CEC773B81CF75805000A0945 /* 单例 */,
 				CEC773AF1CF7576C000A0945 /* main.m */,
+				CEC773B61CF7578C000A0945 /* route.txt */,
 			);
 			path = "设计模式";
+			sourceTree = "<group>";
+		};
+		CEC773B81CF75805000A0945 /* 单例 */ = {
+			isa = PBXGroup;
+			children = (
+				CEC773B91CF75830000A0945 /* Singleton.h */,
+				CEC773BA1CF75830000A0945 /* Singleton.m */,
+			);
+			name = "单例";
+			sourceTree = "<group>";
+		};
+		CEC773BC1CF75A10000A0945 /* 工厂 */ = {
+			isa = PBXGroup;
+			children = (
+				CEC773BD1CF75A25000A0945 /* Factory.h */,
+				CEC773BE1CF75A25000A0945 /* Factory.m */,
+			);
+			name = "工厂";
+			sourceTree = "<group>";
+		};
+		CEC773C01CF75CA7000A0945 /* 命令链 */ = {
+			isa = PBXGroup;
+			children = (
+				CEC773C11CF75CC5000A0945 /* Command.h */,
+				CEC773C21CF75CC5000A0945 /* Command.m */,
+				CED7C3C81CF9754900690471 /* PrintCommond.h */,
+				CED7C3C91CF9754900690471 /* PrintCommond.m */,
+				CED7C3CB1CF9756D00690471 /* CommondProtocol.h */,
+				CED7C3CC1CF975C600690471 /* AddCommond.h */,
+				CED7C3CD1CF975C600690471 /* AddCommond.m */,
+			);
+			name = "命令链";
+			sourceTree = "<group>";
+		};
+		CEC773C41CF76467000A0945 /* 责任链 */ = {
+			isa = PBXGroup;
+			children = (
+				CEC773C51CF764C1000A0945 /* Responsibility.h */,
+				CEC773C61CF764C1000A0945 /* Responsibility.m */,
+				CEC773C81CF76501000A0945 /* Warning.h */,
+				CEC773C91CF76501000A0945 /* Warning.m */,
+				CEC773CB1CF7650D000A0945 /* Error.h */,
+				CEC773CC1CF7650D000A0945 /* Error.m */,
+				CEC773CE1CF765C1000A0945 /* ChainProtocol.h */,
+			);
+			name = "责任链";
+			sourceTree = "<group>";
+		};
+		CED7C3C11CF96C9100690471 /* 代理模式 */ = {
+			isa = PBXGroup;
+			children = (
+				CED7C3C21CF96CAA00690471 /* Delegate.h */,
+				CED7C3C31CF96CAA00690471 /* Delegate.m */,
+				CED7C3C51CF96CBC00690471 /* DelegateProtocol.h */,
+			);
+			name = "代理模式";
+			sourceTree = "<group>";
+		};
+		CED7C3C61CF96DA700690471 /* 观察者 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "观察者";
+			sourceTree = "<group>";
+		};
+		CED7C3C71CF96DAE00690471 /* 策略者 */ = {
+			isa = PBXGroup;
+			children = (
+				CED7C3D01CF98CDA00690471 /* Policy.h */,
+				CED7C3D11CF98CDA00690471 /* Policy.m */,
+				CED7C3D31CF98D6B00690471 /* Dog.h */,
+				CED7C3D41CF98D6B00690471 /* Dog.m */,
+				CED7C3D61CF98D7700690471 /* Cat.h */,
+				CED7C3D71CF98D7700690471 /* Cat.m */,
+			);
+			name = "策略者";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +282,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6365D91CF86E1D00D60E43 /* Milk.m in Sources */,
+				CEC773CD1CF7650D000A0945 /* Error.m in Sources */,
+				CE6365DD1CF8738800D60E43 /* Template.m in Sources */,
+				CED7C3CE1CF975C600690471 /* AddCommond.m in Sources */,
+				CEC773CA1CF76501000A0945 /* Warning.m in Sources */,
 				CEC773B01CF7576C000A0945 /* main.m in Sources */,
+				CED7C3D81CF98D7700690471 /* Cat.m in Sources */,
+				CE6365D61CF86CED00D60E43 /* Apple.m in Sources */,
+				CED7C3CA1CF9754900690471 /* PrintCommond.m in Sources */,
+				CEC773BF1CF75A25000A0945 /* Factory.m in Sources */,
+				CE6365D21CF8670A00D60E43 /* Description.m in Sources */,
+				CED7C3D51CF98D6B00690471 /* Dog.m in Sources */,
+				CED7C3C41CF96CAA00690471 /* Delegate.m in Sources */,
+				CEC773BB1CF75830000A0945 /* Singleton.m in Sources */,
+				CEC773C71CF764C1000A0945 /* Responsibility.m in Sources */,
+				CED7C3D21CF98CDA00690471 /* Policy.m in Sources */,
+				CEC773C31CF75CC5000A0945 /* Command.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +419,7 @@
 				CEC773B51CF7576C000A0945 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
